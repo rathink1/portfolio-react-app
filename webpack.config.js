@@ -28,9 +28,17 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/, // to import images and fonts
+        test: /\.(woff|woff2|eot|ttf)$/, // to import images and fonts
         loader: "url-loader",
         options: { limit: false },
+      },
+      {
+        test: /\.(png|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+      {
+        test: /\.(svg)$/,
+        use: ["@svgr/webpack", "url-loader"],
       },
     ],
   },

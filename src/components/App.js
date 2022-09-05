@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Header from "./Header.js";
 import { Fragment } from "react";
 import Banner from "./Banner.js";
+import Cases from "./Cases.js";
 
 function App() {
   useEffect: () => {
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <Cases></Cases>
     </div>
   );
 }
