@@ -1,6 +1,6 @@
 import React from "react";
-import { ReactComponent as CasesNext } from "./../assets/arrow-right.svg";
-import { ReactComponent as CasesPrev } from "./../assets/arrow-left.svg";
+import { ReactComponent as CasesNext } from "../assets/arrow-right.svg";
+import { ReactComponent as CasesPrev } from "../assets/arrow-left.svg";
 
 const caseStudies = [
   {
