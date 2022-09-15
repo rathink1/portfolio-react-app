@@ -7,19 +7,19 @@ const caseStudies = [
     id: 1,
     subtitle: "Curology",
     title: "A custom formula for your skin’s unique needs",
-    img: "curology-min",
+    img: "lit_string_painting",
   },
   {
     id: 2,
     subtitle: "Yourspace",
     title: "Open space floor plans for you next venture",
-    img: "yourspace-min",
+    img: "eye_painting",
   },
   {
     id: 3,
     subtitle: "Lumin",
     title: "For your best look ever",
-    img: "lumin-min",
+    img: "shiva_painting",
   },
 ];
 
@@ -44,7 +44,7 @@ const Cases = () => {
               </div>
               <div className="case-image">
                 <img
-                  src={require(`./../assets/${caseItem.img}.png`)}
+                  src={require(`./../assets/${caseItem.img}.jpg`)}
                   alt={caseItem.title}
                 />
               </div>
