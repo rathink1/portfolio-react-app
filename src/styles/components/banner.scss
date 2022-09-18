@@ -1,5 +1,5 @@
 .main {
-  height: 50vh; //fallback option
+  height: 50vh;
   height: calc(var(--vh, 1vh) * 50);
   background-color: $white;
   .row {
